@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, Globe2 } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 export default function CallToAction() {
   return (
@@ -20,10 +20,7 @@ export default function CallToAction() {
           {/* subtle glowing lines to represent "tech" limits */}
           <div className="absolute top-0 left-0 w-full height-[2px] bg-brand-gradient opacity-50"></div>
           
-          {/* subtle moving element */}
-          <div className="absolute -top-10 -right-10 p-8 opacity-[0.03]">
-            <Globe2 className="w-64 h-64" />
-          </div>
+
 
           <h2 className="text-5xl md:text-6xl font-bold mb-6 text-[var(--color-brand-light)] relative z-10 font-primary uppercase tracking-wide leading-tight">
             Pronto para dar o <br/>
