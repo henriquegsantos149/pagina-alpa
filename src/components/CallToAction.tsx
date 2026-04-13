@@ -36,7 +36,10 @@ export default function CallToAction() {
           
           <div className="relative z-10 space-y-4 sm:space-y-0 sm:flex sm:justify-center sm:gap-6">
             <a 
-              href="#whatsapp" 
+              href="https://wa.me/5500000000000?text=Olá!%20Tenho%20interesse%20na%20Pós-Graduação%20em%20Georreferenciamento%2C%20Geoprocessamento%20e%20Sensoriamento%20Remoto." 
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Inscreva-se agora na Pós-Graduação em Georreferenciamento via WhatsApp"
               className="shape-leaf group relative inline-flex items-center justify-center gap-3 px-10 py-5 bg-brand-gradient text-[var(--color-brand-dark)] font-bold text-lg overflow-hidden transition-transform hover:scale-105 active:scale-95 w-full sm:w-auto shadow-[0_0_30px_rgba(111,176,58,0.4)]"
             >
               <span className="relative z-10 flex items-center gap-2 uppercase tracking-wide font-primary">
@@ -47,7 +50,10 @@ export default function CallToAction() {
             </a>
             
             <a 
-              href="#ementa" 
+              href="/ementa-pos-ggsr.pdf" 
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Baixar a ementa completa da Pós-Graduação em Georreferenciamento, Geoprocessamento e Sensoriamento Remoto em PDF"
               className="shape-leaf-inverse inline-flex items-center justify-center gap-2 px-10 py-5 bg-transparent border border-white/20 text-[var(--color-brand-light)] font-bold text-lg transition-all hover:bg-white/5 hover:border-[var(--color-brand-light)] w-full sm:w-auto uppercase tracking-wide font-primary"
             >
               Baixar Ementa Completa

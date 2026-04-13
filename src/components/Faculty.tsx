@@ -78,7 +78,7 @@ export default function Faculty() {
                 <div className="absolute inset-0 bg-brand-gradient mix-blend-overlay z-10 opacity-0 group-hover:opacity-60 transition-opacity duration-300"></div>
                 <img 
                   src={member.image} 
-                  alt={member.name} 
+                  alt={`${member.name} – Professor da Pós-Graduação em Georreferenciamento, Geoprocessamento e Sensoriamento Remoto`} 
                   className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
                 />
               </div>

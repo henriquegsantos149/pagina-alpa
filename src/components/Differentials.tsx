@@ -62,8 +62,8 @@ export default function Differentials() {
                 {/* corner gradient touch */}
                 <div className="absolute -top-10 -right-10 w-32 h-32 bg-brand-gradient opacity-10 rounded-full blur-[30px] group-hover:opacity-30 transition-opacity"></div>
                 
-                <div className="w-16 h-16 shape-leaf bg-white/5 border border-white/10 flex items-center justify-center text-[var(--color-brand-green1)] group-hover:scale-110 group-hover:bg-brand-gradient group-hover:text-[var(--color-brand-dark)] transition-all duration-500">
-                  <Icon className="w-8 h-8" />
+                <div className="w-16 h-16 shape-leaf bg-white/5 border border-white/10 flex items-center justify-center text-[var(--color-brand-green1)] group-hover:scale-110 group-hover:bg-brand-gradient group-hover:text-white transition-all duration-500">
+                  <Icon className="w-8 h-8 group-hover:text-white transition-colors duration-500" />
                 </div>
                 <div className="relative z-10 mt-2">
                   <h3 className="text-2xl font-bold text-[var(--color-brand-light)] mb-3 font-primary uppercase tracking-wide">{diff.title}</h3>

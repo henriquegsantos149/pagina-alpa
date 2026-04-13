@@ -89,7 +89,7 @@ export default function CourseInfo() {
             <Award className="w-10 h-10 text-[var(--color-brand-green2)]" />
           </div>
           <div className="relative z-10">
-            <h4 className="text-2xl font-bold mb-2 text-[var(--color-brand-light)] font-primary uppercase tracking-wide">Chancela Anhanguera</h4>
+            <h3 className="text-2xl font-bold mb-2 text-[var(--color-brand-light)] font-primary uppercase tracking-wide">Chancela Anhanguera</h3>
             <p className="text-[var(--color-brand-light)]/70 text-lg">Mais de 25 anos de tradição em ensino superior, com mais de 360 cursos com conceito positivo no MEC. Um diploma de peso para sua carreira.</p>
           </div>
         </motion.div>
