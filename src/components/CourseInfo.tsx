@@ -74,25 +74,59 @@ export default function CourseInfo() {
           </motion.div>
         </motion.div>
 
-        {/* Selo Anhanguera */}
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          className="shape-leaf bg-white/5 border border-white/10 p-8 flex flex-col md:flex-row items-center gap-6 relative overflow-hidden"
-        >
-          {/* subtle glow */}
-          <div className="absolute top-1/2 left-10 -translate-y-1/2 w-32 h-32 bg-brand-gradient opacity-[0.08] blur-[50px] pointer-events-none"></div>
+        {/* Footer info area: Chancela and Parceiros */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Selo Anhanguera */}
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="md:col-span-2 shape-leaf bg-white/5 border border-white/10 p-8 flex flex-col md:flex-row items-center gap-6 relative overflow-hidden"
+          >
+            {/* subtle glow */}
+            <div className="absolute top-1/2 left-10 -translate-y-1/2 w-32 h-32 bg-brand-gradient opacity-[0.08] blur-[50px] pointer-events-none"></div>
 
-          <div className="flex-shrink-0 w-20 h-20 shape-leaf bg-white/5 border border-white/20 flex items-center justify-center relative z-10">
-            <Award className="w-10 h-10 text-[var(--color-brand-secondary)]" />
-          </div>
-          <div className="relative z-10">
-            <h3 className="text-2xl font-bold mb-2 text-[var(--color-brand-light)] font-primary uppercase tracking-wide">Chancela Anhanguera</h3>
-            <p className="text-[var(--color-brand-light)]/70 text-lg">Mais de 25 anos de tradição em ensino superior, com mais de 360 cursos com conceito positivo no MEC. Um diploma de peso para sua carreira.</p>
-          </div>
-        </motion.div>
+            <div className="flex-shrink-0 w-20 h-20 shape-leaf bg-white/5 border border-white/20 flex items-center justify-center relative z-10">
+              <Award className="w-10 h-10 text-[var(--color-brand-secondary)]" />
+            </div>
+            <div className="relative z-10">
+              <h3 className="text-2xl font-bold mb-2 text-[var(--color-brand-light)] font-primary uppercase tracking-wide">Chancela Anhanguera</h3>
+              <p className="text-[var(--color-brand-light)]/70 text-lg">Mais de 25 anos de tradição em ensino superior, com mais de 360 cursos com conceito positivo no MEC. Um diploma de peso para sua carreira.</p>
+            </div>
+          </motion.div>
+
+          {/* Parceiros do curso */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.6 }}
+            className="md:col-span-1 shape-leaf flex flex-col justify-center items-center bg-white/5 border border-white/10 p-8 relative overflow-hidden gap-6"
+          >
+            <h3 className="text-xl font-bold text-[var(--color-brand-light)] font-primary uppercase tracking-wide text-center">Parceiros do curso</h3>
+            <div className="flex items-center justify-center gap-6">
+              {/* CREA */}
+              <div className="flex flex-col items-center gap-2">
+                <img 
+                  src={`${import.meta.env.BASE_URL}logo-crea.png`} 
+                  alt="Logo CREA" 
+                  className="h-12 md:h-14 lg:h-16 w-auto object-contain"
+                />
+                <span className="text-[10px] sm:text-xs text-[var(--color-brand-light)]/60 uppercase tracking-wider">CREA/CONFEA</span>
+              </div>
+              <div className="w-px h-16 bg-white/10" />
+              {/* Anhanguera */}
+              <div className="flex flex-col items-center gap-2">
+                <img 
+                  src={`${import.meta.env.BASE_URL}logo-anhanguera.png`} 
+                  alt="Logo Anhanguera" 
+                  className="h-12 md:h-14 lg:h-16 w-auto object-contain"
+                />
+              </div>
+            </div>
+          </motion.div>
+        </div>
 
       </div>
     </section>
