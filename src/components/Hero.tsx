@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Map, ShieldCheck, GraduationCap, ChevronDown } from 'lucide-react';
+import { ShieldCheck, GraduationCap, ChevronDown } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -33,8 +33,12 @@ export default function Hero() {
             <span>CREA/CONFEA</span>
           </div>
           <div className="shape-leaf flex items-center gap-2 bg-white/5 border border-white/20 px-5 py-2.5 text-sm font-medium text-[var(--color-brand-light)]">
-            <Map className="w-4 h-4 text-[var(--color-brand-secondary)]" />
-            <span>Anhanguera</span>
+            <img 
+              src={`${import.meta.env.BASE_URL}ambiental-pro-icon.png`} 
+              alt="Ambiental Pro Icon" 
+              className="w-4 h-4 object-contain brightness-110" 
+            />
+            <span>Ambiental Pro</span>
           </div>
         </motion.div>
 
