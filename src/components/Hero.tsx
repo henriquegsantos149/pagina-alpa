@@ -19,9 +19,14 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           className="flex flex-wrap justify-center gap-3 mb-8"
         >
-          <div className="shape-leaf flex items-center gap-2 bg-white/5 border border-[var(--color-brand-light)]/20 px-5 py-2.5 text-sm font-medium text-[var(--color-brand-light)]">
+          <div className="shape-leaf flex items-center gap-3 bg-white/5 border border-[var(--color-brand-light)]/20 px-5 py-2.5 text-sm font-medium text-[var(--color-brand-light)]">
             <GraduationCap className="w-4 h-4 text-[var(--color-brand-primary)]" />
             <span>Homologado MEC (Nota 5)</span>
+            <img 
+              src={`${import.meta.env.BASE_URL}mec-badge.png`} 
+              alt="Selo MEC" 
+              className="h-6 w-auto object-contain"
+            />
           </div>
           <div className="shape-leaf flex items-center gap-2 bg-white/5 border border-[var(--color-brand-light)]/20 px-5 py-2.5 text-sm font-medium text-[var(--color-brand-light)]">
             <ShieldCheck className="w-4 h-4 text-[var(--color-brand-accent)]" />
