@@ -5,47 +5,58 @@ import { useState } from 'react';
 const modules = [
   {
     title: "Geotecnologias aplicadas à área ambiental",
-    description: "SIG, mapas temáticos, análise espacial e integração de dados."
+    objective: "Apresentar os fundamentos das geotecnologias e seu papel estratégico na área ambiental, explorando o uso de Sistemas de Informação Geográfica (SIG) e outras ferramentas digitais.",
+    practicalFocus: "Aplicação de softwares de geoprocessamento para a criação de mapas temáticos e análise espacial, fornecendo suporte à tomada de decisões em estudos ambientais."
   },
   {
-    title: "Sensoriamento Remoto e PDI",
-    description: "Processamento Digital de Imagens, Satélites, drones, escaneamento a laser e mapeamento."
+    title: "Sensoriamento Remoto e Processamento Digital de Imagens",
+    objective: "Ensinar os conceitos e técnicas de aquisição e análise de dados orbitais e aéreos, com foco em interpretação e processamento digital.",
+    practicalFocus: "Uso de imagens de satélite e drones para mapeamento de uso e cobertura do solo, monitoramento de áreas e geração de produtos cartográficos."
   },
   {
     title: "Cartografia: Fundamentos, Técnicas e Ferramentas",
-    description: "Escalas, simbologia, normas técnicas e representação do relevo."
+    objective: "Desenvolver conhecimentos sólidos em cartografia para a correta representação do espaço geográfico, abordando escalas, simbologia e normas técnicas.",
+    practicalFocus: "Produção de cartas e mapas técnicos de acordo com padrões cartográficos, assegurando precisão e clareza em projetos ambientais."
   },
   {
     title: "Referência Espacial e Geodésia",
-    description: "Sistemas de coordenadas, projeções cartográficas e operações."
+    objective: "Apresentar os conceitos de sistemas de referência espacial e geodésica, fundamentais para a localização e medição da superfície terrestre.",
+    practicalFocus: "Aplicação de sistemas de coordenadas e projeções cartográficas em levantamentos e georreferenciamento de imóveis rurais e urbanos."
   },
   {
     title: "Topografia aplicada ao georreferenciamento",
-    description: "GNSS, estação total, medições de campo, poligonais e nivelamento."
+    objective: "Ensinar técnicas topográficas aplicadas a levantamentos para fins de georreferenciamento, com ênfase em precisão e normativas legais.",
+    practicalFocus: "Realização de medições em campo com uso de equipamentos como GNSS e estação total, integrando dados a sistemas cartográficos."
   },
   {
     title: "Agrimensura legal",
-    description: "Legislação INCRA, exigências CONFEA/CREA, certificação e SIGEF."
+    objective: "Estudar a legislação e as normas que regulamentam o georreferenciamento de imóveis no Brasil, especialmente as diretrizes do INCRA e do Confea/Crea.",
+    practicalFocus: "Elaboração de memoriais descritivos e documentação técnica exigida para certificação de imóveis no Sistema de Gestão Fundiária (SIGEF)."
   },
   {
     title: "Perícia Ambiental",
-    description: "Laudos técnicos, metodologias periciais, pareceres técnicos e resoluções."
+    objective: "Capacitar o aluno a compreender as etapas e responsabilidades de uma perícia ambiental no contexto judicial e extrajudicial.",
+    practicalFocus: "Produção de laudos e pareceres técnicos com base em metodologias reconhecidas, apoiando processos de avaliação e tomada de decisão."
   },
   {
-    title: "Fundamentos de Programação para Dados Ambientais",
-    description: "Scripts, manipulação de dados espaciais e automação de mapas."
+    title: "Fundamentos de Programação para Ciência de Dados Ambientais",
+    objective: "Introduzir a lógica e os conceitos de programação aplicados à organização e análise de dados ambientais.",
+    practicalFocus: "Desenvolvimento de scripts básicos para manipulação e tratamento de informações ambientais, facilitando processos analíticos."
   },
   {
-    title: "Gerenciamento de Bancos de Dados e Big Data",
-    description: "Modelagem, armazenamento e consulta de grandes volumes de dados (Big Data Ambiental)."
+    title: "Gerenciamento de Bancos de Dados e Big Data aplicado à Área Ambiental",
+    objective: "Ensinar princípios de armazenamento, organização e gerenciamento de dados ambientais, incluindo abordagens de big data.",
+    practicalFocus: "Estruturação de bases de dados e utilização de ferramentas para análise de grandes volumes de dados ambientais."
   },
   {
-    title: "WebMaps e Dashboards",
-    description: "Visualizações interativas online, mapas digitais e tomada de decisão."
+    title: "WebMaps e Dashboards: Visualização Interativa de Dados",
+    objective: "Capacitar os alunos a desenvolver visualizações digitais dinâmicas que comuniquem informações espaciais de forma clara e acessível.",
+    practicalFocus: "Criação de mapas interativos e dashboards voltados à gestão ambiental e à comunicação de resultados técnicos."
   },
   {
     title: "Gerenciamento Estratégico de Projetos",
-    description: "Planejamento, execução, coordenação técnica e avaliação de custos."
+    objective: "Apresentar metodologias de gestão de projetos aplicadas a iniciativas ambientais, integrando planejamento, execução e acompanhamento.",
+    practicalFocus: "Uso de práticas de gerenciamento para coordenar prazos, recursos e resultados em projetos técnicos."
   }
 ];
 
@@ -93,10 +104,22 @@ export default function Curriculum() {
                   <ChevronDown className={`w-6 h-6 transition-transform duration-300 ${isOpen ? 'rotate-180 text-[var(--color-brand-secondary)]' : 'text-[var(--color-brand-light)]/40'}`} />
                 </button>
                 
-                <div className={`overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0'}`}>
-                  <div className="px-8 pb-8 pt-0 pl-26 flex items-start gap-4">
-                    <MapPin className="w-5 h-5 text-[var(--color-brand-accent)] shrink-0 mt-1" />
-                    <p className="text-[var(--color-brand-light)]/70 text-lg font-secondary">{mod.description}</p>
+                <div className={`overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}>
+                  <div className="px-8 pb-8 pt-0 md:pl-26 space-y-4">
+                    <div className="flex items-start gap-4">
+                      <div className="w-1.5 h-1.5 rounded-full bg-[var(--color-brand-primary)] mt-2.5 shrink-0" />
+                      <p className="text-[var(--color-brand-light)]/80 text-base md:text-lg font-secondary">
+                        <strong className="text-[var(--color-brand-primary)] uppercase text-xs tracking-widest block mb-1">Objetivo</strong>
+                        {mod.objective}
+                      </p>
+                    </div>
+                    <div className="flex items-start gap-4">
+                      <div className="w-1.5 h-1.5 rounded-full bg-[var(--color-brand-accent)] mt-2.5 shrink-0" />
+                      <p className="text-[var(--color-brand-light)]/80 text-base md:text-lg font-secondary">
+                        <strong className="text-[var(--color-brand-accent)] uppercase text-xs tracking-widest block mb-1">Foco Prático</strong>
+                        {mod.practicalFocus}
+                      </p>
+                    </div>
                   </div>
                 </div>
               </motion.div>
