@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-[#31364a]/80 backdrop-blur-md border-b border-white/10 py-1">
+    <header className="fixed top-0 left-0 w-full z-50 bg-[#1a1d2e]/90 backdrop-blur-md border-b border-white/10 py-1">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-3 items-center gap-4">
         {/* Logo - Left column */}
         <div className="flex justify-start">
