@@ -29,6 +29,15 @@ export default function Hero() {
               className="h-10 md:h-12 w-auto object-contain"
             />
           </div>
+          
+          {/* Ambiental Pro */}
+          <div className="shape-leaf flex items-center gap-3 bg-white/5 border border-[var(--color-brand-light)]/20 px-5 py-2.5 text-sm font-medium text-[var(--color-brand-light)]">
+            <img 
+              src={`${import.meta.env.BASE_URL}logo-ambientalpro.png`} 
+              alt="Ambiental Pro" 
+              className="h-10 md:h-12 w-auto object-contain"
+            />
+          </div>
         </motion.div>
 
         {/* Title */}
