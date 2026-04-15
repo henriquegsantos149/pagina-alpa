@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
 import { useState } from 'react';
 
@@ -81,11 +80,7 @@ export default function Curriculum() {
           {modules.map((mod, index) => {
             const isOpen = openIndex === index;
             return (
-              <motion.div 
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-50px" }}
-                transition={{ duration: 0.4, delay: index * 0.05 }}
+              <div 
                 key={index}
                 className={`shape-leaf bg-black/40 border transition-all duration-300 ${isOpen ? 'border-[var(--color-brand-secondary)]/40 shadow-[0_0_20px_rgba(41,167,217,0.1)]' : 'border-white/5 hover:border-[var(--color-brand-accent)]/30'}`}
               >
@@ -122,7 +117,7 @@ export default function Curriculum() {
                     </div>
                   </div>
                 </div>
-              </motion.div>
+              </div>
             );
           })}
         </div>
