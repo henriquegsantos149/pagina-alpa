@@ -121,7 +121,7 @@ export default function CourseInfo() {
                 <img 
                   src={`${import.meta.env.BASE_URL}logo-anhanguera.png`} 
                   alt="Logo Anhanguera" 
-                  className="h-12 md:h-14 lg:h-16 w-auto object-contain"
+                  className="h-16 md:h-20 lg:h-24 w-auto object-contain"
                 />
               </div>
             </div>
