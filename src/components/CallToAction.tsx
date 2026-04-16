@@ -28,15 +28,15 @@ export default function CallToAction() {
           </h2>
           
           <p className="text-xl text-[var(--color-brand-light)]/70 mb-12 max-w-3xl mx-auto relative z-10 font-secondary mt-6">
-            Junte-se à próxima turma e torne-se um especialista certificado apto para atuar em projetos de impacto em Georreferenciamento e Geoprocessamento.
+            Junte-se à próxima turma e torne-se um especialista certificado em Auditoria, Licenciamento e Perícia Ambiental.
           </p>
           
           <div className="relative z-10 space-y-4 sm:space-y-0 sm:flex sm:justify-center sm:gap-6">
             <a 
-              href="https://pay.voompcreators.com.br/4664/offer/9rKDRq/?utm_source=site_anhanguera" 
+              href="https://pay.voompcreators.com.br/7634/offer/aMlFPw/?utm_source=site_anhanguera" 
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Inscreva-se agora na Pós-Graduação em Georreferenciamento via Plataforma de Pagamento"
+              aria-label="Inscreva-se agora na Pós-Graduação em Auditoria, Licenciamento e Perícia Ambiental via Plataforma de Pagamento"
               className="shape-leaf group relative inline-flex items-center justify-center gap-3 px-10 py-5 bg-brand-gradient text-[var(--color-brand-dark)] font-bold text-lg overflow-hidden transition-transform hover:scale-105 active:scale-95 w-full sm:w-auto shadow-[0_0_30px_rgba(39,102,140,0.4)]"
             >
               <span className="relative z-10 flex items-center gap-2 uppercase tracking-wide font-primary">
@@ -47,7 +47,7 @@ export default function CallToAction() {
             </a>
             
             <a 
-              href="https://wa.link/68z52x" 
+              href="https://wa.link/yv3m1g" 
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Falar com um consultor via WhatsApp"

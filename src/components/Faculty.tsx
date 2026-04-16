@@ -7,49 +7,43 @@ const facultyMembers = [
     name: "Henrique Gonzalez",
     title: "Engenheiro Ambiental (UFRJ)",
     image: `${base}faculty/henrique.png`,
-    resume: "Experiência sólida na área ambiental, focado em geoprocessamento e soluções tecnológicas."
+    resume: "Engenheiro Ambiental na UFRJ com parte da graduação na University of Technology de Sydney, Austrália. Especialista em Geotecnologias, já tendo ministrado formações para mais de 70.000 profissionais."
   },
   {
-    name: "Raquel Carnivalle Melillo",
-    title: "Doutora em Ambiente e Sociedade (UNICAMP)",
-    image: `${base}faculty/raquel.png`,
-    resume: "Pesquisadora com vasta contribuição para estudos de impacto ambiental e sustentabilidade."
+    name: "Rafael Timbola",
+    title: "Mestre e Doutor em Engenharia",
+    image: `${base}faculty/rafael.png`,
+    resume: "Engenheiro ambiental com 14 anos de experiência. Responsável pela empresa O Perito Ambiental, atuando como consultor e professor em diversos cursos de pós-graduação."
   },
   {
-    name: "Rodolfo Finatti",
-    title: "Geógrafo (UNESP), PhD em Geografia (USP)",
-    image: `${base}faculty/rodolfo.png`,
-    resume: "Especialista com profunda bagagem acadêmica e prática na formulação de mapas."
+    name: "Bruna Balestrin Piaia",
+    title: "Doutora em Engenharia Florestal",
+    image: `${base}faculty/bruna.png`,
+    resume: "Mestre e Doutora pela UFSM com pós-doutorado em Eng. Agrícola. Especialista em Perícia e Auditoria Ambiental com mais de 10 anos de experiência em restauração ecológica."
   },
   {
-    name: "Vitor do Sacramento",
-    title: "Geólogo (UNB) com MBA",
-    image: `${base}faculty/vitor.png`,
-    resume: "Combina conhecimento profundo do solo com gestão estratégica em geotecnologias."
+    name: "Hugo Ferreira",
+    title: "Mestre em Gestão de Riscos (UFPA)",
+    image: `${base}faculty/hugo.png`,
+    resume: "Técnico em Cartografia no SGB. Especialista em Perícia Ambiental, Geoprocessamento e Educação Ambiental, com foco em Gestão de Riscos e Mudanças Climáticas."
   },
   {
-    name: "Luís Antônio Soares",
-    title: "Engenheiro Agrimensor (UFU)",
-    image: `${base}faculty/luis.png`,
-    resume: "Experiência de campo em demarcações e georreferenciamento de imóveis rurais."
+    name: "Anelise Gomes da Silva",
+    title: "Doutoranda em Ciências Ambientais (USP)",
+    image: `${base}faculty/anelise.png`,
+    resume: "Mestre em Eng. Ambiental e graduada em Ciências Sociais. Especialista em políticas públicas ambientais, economia ecológica e valoração de serviços ecossistêmicos."
   },
   {
-    name: "Ana Beatriz Ulhoa",
-    title: "Engenheira Ambiental",
-    image: `${base}faculty/ana.png`,
-    resume: "Focada em análises geoespaciais voltadas para a sustentabilidade e impacto urbano."
+    name: "Relva Beltrão",
+    title: "Mestre em Tecnologia Ambiental",
+    image: `${base}faculty/relva.png`,
+    resume: "Bióloga, auditora SGI e Lixo Zero. Especialista em gestão de resíduos e auditoria ambiental com mais de 15 anos de experiência e criadora do Método PGRS Descomplicado."
   },
   {
-    name: "Charlie Turette Lopes",
-    title: "Engenheiro de Produção",
-    image: `${base}faculty/charlie.png`,
-    resume: "Especialista em otimização de processos usando tecnologias de sensoriamento remoto."
-  },
-  {
-    name: "Bismarck Feuchard",
-    title: "Eng. Civil (INCRA)",
-    image: `${base}faculty/bismarck.png`,
-    resume: "Expertise de ponta na legislação e requisitos técnicos do INCRA."
+    name: "Jéssica Michalak Besen",
+    title: "Engenheira Ambiental (PUC-PR)",
+    image: `${base}faculty/jessica.png`,
+    resume: "Especialista em Segurança do Trabalho. Atua desde 2011 em consultoria com experiência em licenciamento, estudos de impacto ambiental e saneamento."
   }
 ];
 
@@ -73,13 +67,13 @@ export default function Faculty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="shape-leaf bg-white/5 border border-white/10 overflow-hidden hover:border-[var(--color-brand-accent)]/50 transition-all group hover:shadow-[0_0_25px_rgba(41, 167, 217, 0.15)] flex flex-col"
+              className="shape-leaf bg-white/[0.03] backdrop-blur-sm border border-white/20 overflow-hidden hover:border-[var(--color-brand-accent)]/50 transition-all group hover:shadow-[0_0_30px_rgba(184,204,59,0.15)] flex flex-col shadow-lg shadow-black/40"
             >
               {/* Image container must also follow the shape or part of it */}
               <div className="h-64 overflow-hidden relative shrink-0">
                 <img 
                   src={member.image} 
-                  alt={`${member.name} – Professor da Pós-Graduação em Georreferenciamento, Geoprocessamento e Sensoriamento Remoto`} 
+                  alt={`${member.name} – Professor da Pós-Graduação em Auditoria, Licenciamento e Perícia Ambiental`} 
                   className="w-full h-full object-cover grayscale-0 md:grayscale opacity-100 md:opacity-90 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
                 />
               </div>

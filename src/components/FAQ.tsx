@@ -8,8 +8,8 @@ const faqs = [
     a: "Sim. O curso é 100% regulamentado e o diploma é emitido pela Anhanguera, instituição de alta credibilidade com nota máxima no MEC."
   },
   {
-    q: "O curso dá direito ao registro no CREA e extensões de atribuição?",
-    a: "Sim. O conteúdo foi elaborado com base na Decisão Normativa 116 do CONFEA, permitindo que profissionais habilitados solicitem a extensão de atribuição para georreferenciamento de imóveis rurais."
+    q: "O curso habilita para atuação como Perito Ambiental?",
+    a: "Sim. O curso fornece a base técnica, metodológica e jurídica necessária para que você atue como perito assistente ou seja nomeado perito judicial, conforme as exigências do Novo Código de Processo Civil."
   },
   {
     q: "Como funcionam as aulas e o acesso à plataforma?",

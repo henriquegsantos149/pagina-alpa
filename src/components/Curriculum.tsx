@@ -3,59 +3,59 @@ import { useState } from 'react';
 
 const modules = [
   {
-    title: "Geotecnologias aplicadas à área ambiental",
-    objective: "Apresentar os fundamentos das geotecnologias e seu papel estratégico na área ambiental, explorando o uso de Sistemas de Informação Geográfica (SIG) e outras ferramentas digitais.",
-    practicalFocus: "Aplicação de softwares de geoprocessamento para a criação de mapas temáticos e análise espacial, fornecendo suporte à tomada de decisões em estudos ambientais."
+    title: "Perícia Ambiental (Processo e Metodologia)",
+    objective: "Apresentar o papel do perito ambiental e as fases de um processo pericial, incluindo coleta de evidências, elaboração de laudos e atuação junto ao Poder Judiciário ou arbitragens.",
+    practicalFocus: "Elaboração de laudos periciais em casos reais ou simulados, análise de provas documentais e participação em \"simulações\" de audiências."
   },
   {
-    title: "Sensoriamento Remoto e Processamento Digital de Imagens",
-    objective: "Ensinar os conceitos e técnicas de aquisição e análise de dados orbitais e aéreos, com foco em interpretação e processamento digital.",
-    practicalFocus: "Uso de imagens de satélite e drones para mapeamento de uso e cobertura do solo, monitoramento de áreas e geração de produtos cartográficos."
+    title: "Licenciamento Ambiental",
+    objective: "Proporcionar conhecimento aprofundado sobre a legislação ambiental brasileira (e principais convenções internacionais), bem como compreender todas as etapas do licenciamento ambiental.",
+    practicalFocus: "Análise de casos de licenciamento, discussão de jurisprudência, elaboração de documentos de forma a atender órgãos reguladores."
   },
   {
-    title: "Cartografia: Fundamentos, Técnicas e Ferramentas",
-    objective: "Desenvolver conhecimentos sólidos em cartografia para a correta representação do espaço geográfico, abordando escalas, simbologia e normas técnicas.",
-    practicalFocus: "Produção de cartas e mapas técnicos de acordo com padrões cartográficos, assegurando precisão e clareza em projetos ambientais."
+    title: "Avaliação de Riscos e Impactos Ambientais",
+    objective: "Capacitar para o desenvolvimento e a análise de Estudos de Impacto Ambiental (EIA) e Relatórios de Impacto ao Meio Ambiente (RIMA).",
+    practicalFocus: "Elaboração de termos de referência e recomendações de mitigação, aplicação de metodologias de previsão de impactos (checklist, matrizes e mapas temáticos)."
   },
   {
-    title: "Referência Espacial e Geodésia",
-    objective: "Apresentar os conceitos de sistemas de referência espacial e geodésica, fundamentais para a localização e medição da superfície terrestre.",
-    practicalFocus: "Aplicação de sistemas de coordenadas e projeções cartográficas em levantamentos e georreferenciamento de imóveis rurais e urbanos."
+    title: "Fundamentos de controle e prevenção da poluição ambiental",
+    objective: "Capacitar o aluno a identificar fontes de poluição ambiental e aplicar estratégias de monitoramento, controle e prevenção para minimizar impactos ambientais.",
+    practicalFocus: "Utilização de ferramentas e técnicas para o monitoramento e controle da poluição do ar, água e solo. Aplicação de medidas mitigadoras e remediadoras para conformidade com padrões ambientais."
   },
   {
-    title: "Topografia aplicada ao georreferenciamento",
-    objective: "Ensinar técnicas topográficas aplicadas a levantamentos para fins de georreferenciamento, com ênfase em precisão e normativas legais.",
-    practicalFocus: "Realização de medições em campo com uso de equipamentos como GNSS e estação total, integrando dados a sistemas cartográficos."
+    title: "Gestão de Resíduos Sólidos",
+    objective: "Discutir o gerenciamento de resíduos em todas as etapas (geração, coleta, transporte, tratamento e disposição final), segundo as políticas nacionais e internacionais.",
+    practicalFocus: "Criação de planos de gestão de resíduos sólidos para empresas, simulação de cenários e cálculo de custos e benefícios ambientais."
   },
   {
-    title: "Agrimensura legal",
-    objective: "Estudar a legislação e as normas que regulamentam o georreferenciamento de imóveis no Brasil, especialmente as diretrizes do INCRA e do Confea/Crea.",
-    practicalFocus: "Elaboração de memoriais descritivos e documentação técnica exigida para certificação de imóveis no Sistema de Gestão Fundiária (SIGEF)."
+    title: "Geoprocessamento e Sensoriamento Remoto",
+    objective: "Capacitar o aluno a utilizar ferramentas de geoprocessamento (SIG) para análises ambientais e confecção de mapas temáticos.",
+    practicalFocus: "Uso de softwares (ArcGIS, QGIS, etc.) para análise de dados geoespaciais, elaboração de mapas de risco e identificação de impactos em áreas de influência."
   },
   {
-    title: "Perícia Ambiental",
-    objective: "Capacitar o aluno a compreender as etapas e responsabilidades de uma perícia ambiental no contexto judicial e extrajudicial.",
-    practicalFocus: "Produção de laudos e pareceres técnicos com base em metodologias reconhecidas, apoiando processos de avaliação e tomada de decisão."
+    title: "Aerofotogrametria aplicada à Perícias Ambientais",
+    objective: "Capacitar profissionais a utilizar técnicas de aerofotogrametria para coleta, processamento e análise de dados geoespaciais em perícias ambientais, visando identificar e documentar danos, monitorar áreas degradadas e embasar laudos técnicos com precisão científica.",
+    practicalFocus: "Processamento de imagens aéreas (obtidas por drones, satélites ou aeronaves) para geração de modelos 3D, ortomosaicos e mapas de alta resolução. Aplicação de softwares especializados na análise de mudanças ambientais, erosão, desmatamento e ocupação irregular. Simulação de casos reais de perícia ambiental, como identificação de passivos ambientais, delimitação de áreas contaminadas e reconstituição de cenários para laudos judiciais."
   },
   {
-    title: "Fundamentos de Programação para Ciência de Dados Ambientais",
-    objective: "Introduzir a lógica e os conceitos de programação aplicados à organização e análise de dados ambientais.",
-    practicalFocus: "Desenvolvimento de scripts básicos para manipulação e tratamento de informações ambientais, facilitando processos analíticos."
+    title: "Auditoria Ambiental",
+    objective: "Entender os objetivos, métodos e requisitos de uma auditoria ambiental, desde a preparação até a emissão de relatórios de conformidade.",
+    practicalFocus: "Estudo de normas (ISO 14001, ISO 19011) e realização de auditorias simuladas, com práticas de levantamento de dados em campo e entrevistas."
   },
   {
-    title: "Gerenciamento de Bancos de Dados e Big Data aplicado à Área Ambiental",
-    objective: "Ensinar princípios de armazenamento, organização e gerenciamento de dados ambientais, incluindo abordagens de big data.",
-    practicalFocus: "Estruturação de bases de dados e utilização de ferramentas para análise de grandes volumes de dados ambientais."
+    title: "Recuperação de Áreas Degradadas",
+    objective: "Apresentar técnicas de remediação ambiental e recuperação de áreas contaminadas ou degradadas, abordando tecnologias e custos envolvidos.",
+    practicalFocus: "Estudos de caso sobre contaminação do solo e da água, elaboração de Planos de Recuperação de Áreas Degradadas (PRAD)."
   },
   {
-    title: "WebMaps e Dashboards: Visualização Interativa de Dados",
-    objective: "Capacitar os alunos a desenvolver visualizações digitais dinâmicas que comuniquem informações espaciais de forma clara e acessível.",
-    practicalFocus: "Criação de mapas interativos e dashboards voltados à gestão ambiental e à comunicação de resultados técnicos."
+    title: "Valoração Econômica de Recursos Naturais e Danos Ambientais",
+    objective: "Desenvolver a habilidade de atribuir valor econômico a recursos naturais e calcular os custos de danos ambientais (indenizações, compensações, etc.).",
+    practicalFocus: "Aplicação de metodologias de valoração (método do custo de viagem, disposição a pagar, entre outras) em cenários reais ou simulados."
   },
   {
-    title: "Gerenciamento Estratégico de Projetos",
-    objective: "Apresentar metodologias de gestão de projetos aplicadas a iniciativas ambientais, integrando planejamento, execução e acompanhamento.",
-    practicalFocus: "Uso de práticas de gerenciamento para coordenar prazos, recursos e resultados em projetos técnicos."
+    title: "Elaboração e Contestação de Laudos Ambientais",
+    objective: "Capacitar o aluno na redação adequada de laudos, pareceres e relatórios ambientais, bem como na capacidade de contestar e avaliar criticamente documentos produzidos por outras partes.",
+    practicalFocus: "Exercícios de escrita de laudos e realização de 'críticas técnicas' a laudos fictícios ou emitidos em processos reais."
   }
 ];
 
@@ -82,7 +82,7 @@ export default function Curriculum() {
             return (
               <div 
                 key={index}
-                className={`shape-leaf bg-black/40 border transition-all duration-300 ${isOpen ? 'border-[var(--color-brand-secondary)]/40 shadow-[0_0_20px_rgba(41,167,217,0.1)]' : 'border-white/5 hover:border-[var(--color-brand-accent)]/30'}`}
+                className={`shape-leaf bg-white/[0.03] backdrop-blur-sm border transition-all duration-300 ${isOpen ? 'border-[var(--color-brand-primary)] shadow-[0_0_25px_rgba(184,204,59,0.2)]' : 'border-white/10 hover:border-[var(--color-brand-accent)]/40 shadow-lg shadow-black/40'}`}
               >
                 <button 
                   onClick={() => setOpenIndex(isOpen ? null : index)}

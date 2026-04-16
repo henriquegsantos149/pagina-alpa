@@ -4,33 +4,33 @@ import { CheckCircle2, Cpu, Globe, Layers, Map as MapIcon, Database } from 'luci
 const skills = [
   {
     icon: Globe,
-    title: "Geoprocessamento Avançado",
-    desc: "Domínio completo de softwares SIG (QGIS/ArcGIS) para análise espacial complexa."
+    title: "Auditoria Ambiental",
+    desc: "Domínio completo de normas ISO 14001 e ISO 19011 para auditoria de conformidade."
   },
   {
     icon: MapIcon,
-    title: "Georreferenciamento de Imóveis",
-    desc: "Execução completa seguindo as normas técnicas do INCRA e legislação vigente."
+    title: "Perícia Ambiental",
+    desc: "Capacidade de elaboração de laudos periciais com validade jurídica no âmbito judicial e extrajudicial."
   },
   {
     icon: Cpu,
-    title: "Processamento Digital de Imagens",
-    desc: "Técnicas avançadas de tratamento e classificação de imagens orbitais e suborbitais."
+    title: "Licenciamento Ambiental",
+    desc: "Gestão técnica de processos de licenciamento em todas as suas etapas (LP, LI e LO)."
   },
   {
     icon: Layers,
-    title: "Modelagem de Dados Espaciais",
-    desc: "Criação e gestão de bancos de dados geográficos estruturados."
+    title: "Avaliação de Impactos",
+    desc: "Execução e análise de EIA/RIMA e outros estudos de impacto ambiental complexos."
   },
   {
     icon: Database,
-    title: "Sensoriamento Remoto",
-    desc: "Interpretação de dados multiespectrais para monitoramento ambiental e agrícola."
+    title: "Gestão de Resíduos",
+    desc: "Implementação estratégica de PGRS em conformidade com a Política Nacional de Resíduos Sólidos."
   },
   {
     icon: CheckCircle2,
-    title: "Laudos e Perícias",
-    desc: "Elaboração de documentos técnicos com validade jurídica e técnica."
+    title: "Geoprocessamento Aplicado",
+    desc: "Uso de ferramentas SIG para suporte à perícia, mapeamento de danos e análise de áreas."
   }
 ];
 

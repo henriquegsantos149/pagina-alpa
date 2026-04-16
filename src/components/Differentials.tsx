@@ -3,8 +3,8 @@ import { Verified, FileSignature, University, TrendingUp, Users, Briefcase } fro
 
 const differencials = [
   {
-    title: "Certificação CREA / CONFEA",
-    description: "Elaborada com base na Decisão Normativa 116. Atende 100% os requisitos da câmara.",
+    title: "Foco em Perícia Judicial",
+    description: "Metodologia alinhada ao Novo CPC para atuação como Perito Judicial ou Assistente Técnico.",
     icon: FileSignature
   },
   {
@@ -13,13 +13,13 @@ const differencials = [
     icon: Verified
   },
   {
-    title: "Força da Marcar Anhanguera",
+    title: "Força da Marca Anhanguera",
     description: "A tradição de mais de 25 anos em ensino superior chancelando sua educação.",
     icon: University
   },
   {
     title: "Metodologia 100% Prática",
-    description: "Casos reais do mercado e a vivência que apenas profissionais atuantes sabem ensinar.",
+    description: "Estudos de caso reais e a vivência que apenas profissionais atuantes sabem ensinar.",
     icon: TrendingUp
   },
   {
@@ -28,8 +28,8 @@ const differencials = [
     icon: Users
   },
   {
-    title: "Extensão de Atribuição",
-    description: "Possibilidade de solicitação de extensão de atribuição de serviços de georreferenciamento no CREA.",
+    title: "Compliance e Auditoria",
+    description: "Domínio prático das normas ISO 14001 e ISO 19011 para o mercado de consultoria.",
     icon: Briefcase
   }
 ];

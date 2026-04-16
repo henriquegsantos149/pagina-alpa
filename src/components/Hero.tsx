@@ -19,13 +19,6 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           className="flex flex-wrap items-center justify-center gap-10 md:gap-16 mb-8 md:mb-12"
         >
-          {/* CREA */}
-          <img 
-            src={`${import.meta.env.BASE_URL}logo-crea.png`} 
-            alt="Logo CREA" 
-            className="h-16 md:h-20 w-auto object-contain hover:scale-105 transition-transform"
-          />
-
           {/* Ambiental Pro */}
           <a 
             href="https://www.ambientalpro.com.br/"
@@ -42,7 +35,7 @@ export default function Hero() {
 
           {/* MEC */}
           <a 
-            href="https://emec.mec.gov.br/emec/consulta-cadastro/detalhamento/d96957f455f6405d14c6542552b0f6eb/NTE1/93916316abe23148507bd4c260e4b878/Mjc0OTUy"
+            href="https://emec.mec.gov.br/emec/consulta-cadastro/detalhamento/d96957f455f6405d14c6542552b0f6eb/NTE1/93916316abe23148507bd4c260e4b878/Mjk3NDk2"
             target="_blank"
             rel="noopener noreferrer"
             className="group"
@@ -60,13 +53,13 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="text-3xl sm:text-4xl md:text-7xl font-bold tracking-tight mb-6 max-w-5xl uppercase leading-tight font-primary"
+          className="text-3xl sm:text-4xl md:text-6xl font-bold tracking-tight mb-6 max-w-5xl uppercase leading-tight font-primary"
         >
           Pós-Graduação em <br className="md:block" />
           <span className="inline-block bg-brand-gradient text-[var(--color-brand-dark)] px-3 py-1 md:px-4 md:py-1 mt-2 mb-1 shape-leaf transform -skew-x-6">
-            <span className="inline-block skew-x-6">Georreferenciamento, Geoprocessamento</span>
+            <span className="inline-block skew-x-6">Auditoria, Licenciamento</span>
           </span> <br className="md:block" />
-          e Sensoriamento Remoto
+          e Perícia Ambiental
         </motion.h1>
 
         {/* Subtitle */}
@@ -76,7 +69,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-lg md:text-xl text-[var(--color-brand-light)]/70 mb-8 md:mb-10 max-w-2xl leading-relaxed font-secondary"
         >
-          Capacite-se com habilidades técnicas e conhecimento legal para a prestação de serviços em Geotecnologias. Elaborada com base na Decisão Normativa 116 do CONFEA.
+          Capacitação prática com estudos de caso, auditorias e uso de SIG (QGIS) alinhados às demandas do mercado de perícia no Brasil e normas internacionais (ISO 14001, ISO 19011).
         </motion.p>
 
         {/* CTA Button */}
@@ -85,7 +78,7 @@ export default function Hero() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.6 }}
         >
-          <a href="https://pay.voompcreators.com.br/4664/offer/9rKDRq/?utm_source=site_anhanguera" target="_blank" rel="noopener noreferrer" aria-label="Inscreva-se agora na Pós-Graduação em Georreferenciamento, Geoprocessamento e Sensoriamento Remoto" className="shape-leaf group relative inline-flex items-center justify-center gap-3 px-10 py-5 bg-brand-gradient text-[var(--color-brand-dark)] font-bold text-lg overflow-hidden transition-transform hover:scale-105 active:scale-95 shadow-[0_0_20px_var(--color-brand-green2)]/30">
+          <a href="https://pay.voompcreators.com.br/7634/offer/aMlFPw/?utm_source=site_anhanguera" target="_blank" rel="noopener noreferrer" aria-label="Inscreva-se agora na Pós-Graduação em Auditoria, Licenciamento e Perícia Ambiental" className="shape-leaf group relative inline-flex items-center justify-center gap-3 px-10 py-5 bg-brand-gradient text-[var(--color-brand-dark)] font-bold text-lg overflow-hidden transition-all hover:scale-105 active:scale-95 shadow-[0_0_25px_rgba(184,204,59,0.3)] hover:shadow-[0_0_35px_rgba(184,204,59,0.5)]">
             <span className="relative z-10 transition-colors uppercase tracking-wider font-primary">Inscreva-se Agora</span>
             <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out"></div>
           </a>

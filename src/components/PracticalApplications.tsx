@@ -3,34 +3,34 @@ import { Briefcase, Building2, Landmark, Tractor, HardHat, TreePine } from 'luci
 
 const apps = [
   {
-    icon: Tractor,
-    title: "Agronegócio",
-    desc: "Monitoramento de safras, gestão de limites rurais e agricultura de precisão."
+    icon: Landmark,
+    title: "Perícia Judicial",
+    desc: "Atuação estratégica como perito nomeado pelo juiz ou assistente técnico das partes em tribunais."
   },
   {
     icon: TreePine,
-    title: "Meio Ambiente",
-    desc: "Análise de impacto ambiental, recuperação de áreas degradadas e monitoramento florestal."
-  },
-  {
-    icon: Landmark,
-    title: "Gestão Pública",
-    desc: "Plano diretor, cadastro técnico multifinalitário e regularização fundiária."
-  },
-  {
-    icon: HardHat,
-    title: "Construção Civil",
-    desc: "Levantamentos topográficos de precisão e acompanhamento de grandes obras de infraestrutura."
+    title: "Consultoria Ambiental",
+    desc: "Elaboração de estudos de impacto, planos de remediação e condução de processos de licenciamento."
   },
   {
     icon: Building2,
-    title: "Mercado Imobiliário",
-    desc: "Avaliação de áreas para empreendimentos e perícias judiciais de demarcação."
+    title: "Setor Industrial",
+    desc: "Auditoria interna de conformidade legal e implementação de sistemas de gestão ambiental (ISO)."
+  },
+  {
+    icon: HardHat,
+    title: "Fiscalização e Gestão",
+    desc: "Atuação em órgãos públicos na análise técnica de licenciamentos e auditorias governamentais."
+  },
+  {
+    icon: Tractor,
+    title: "Agronegócio",
+    desc: "Certificações de sustentabilidade, regularização de passivos e auditoria para exportação."
   },
   {
     icon: Briefcase,
-    title: "Consultoria Autônoma",
-    desc: "Liberdade para gerir seus próprios projetos e emitir laudos certificados pelo CREA."
+    title: "Escritórios Jurídicos",
+    desc: "Suporte técnico pericial para defesa ou proposição de ações ligadas a danos ambientais."
   }
 ];
 
