@@ -6,12 +6,9 @@ const base = import.meta.env.BASE_URL;
 
 const testimonials = [
   { img: `${base}testimonials/testi1.jpg`, alt: "Depoimento Luciana Souza" },
-  { img: `${base}testimonials/testi2.jpg`, alt: "Depoimento Thiago Martins" },
+  { img: `${base}testimonials/testi2.png`, alt: "Depoimento Thiago Martins" },
   { img: `${base}testimonials/testi3.png`, alt: "Depoimento Aluno" },
-  { img: `${base}testimonials/testi4.png`, alt: "Depoimento Rafael" },
-  { img: `${base}testimonials/testi5.png`, alt: "Depoimento Aluna GGSR" },
-  { img: `${base}testimonials/testi6.png`, alt: "Depoimento Defesa Civil" },
-  { img: `${base}testimonials/testi7.jpg`, alt: "Depoimento Suporte" },
+  { img: `${base}testimonials/testi4.jpg`, alt: "Depoimento Rafael" },
 ];
 
 export default function Testimonials() {
