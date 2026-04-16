@@ -63,7 +63,7 @@ export default function Curriculum() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <section id="curriculo" className="py-24 bg-[var(--color-brand-dark)] relative overflow-hidden">
+    <section id="curriculo" className="py-16 md:py-24 bg-[var(--color-brand-dark)] relative overflow-hidden">
       {/* background grid again for continuity */}
       <div className="absolute inset-0 bg-grid opacity-[0.05]"></div>
       

@@ -3,7 +3,7 @@ import { Target, AlertCircle, TrendingUp } from 'lucide-react';
 
 export default function ProblemObjective() {
   return (
-    <section id="problema" className="py-24 relative overflow-hidden bg-[var(--color-brand-dark)]">
+    <section id="problema" className="py-16 md:py-24 relative overflow-hidden bg-[var(--color-brand-dark)]">
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           

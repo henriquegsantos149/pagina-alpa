@@ -3,12 +3,12 @@ import { GraduationCap, ChevronDown } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[var(--color-brand-dark)]">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black/20">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-grid opacity-70"></div>
       
       {/* Overlay gradient for readability */}
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[var(--color-brand-dark)]/80 to-[var(--color-brand-dark)] opacity-100 pointer-events-none"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0b0c10]/40 to-black/20 opacity-100 pointer-events-none"></div>
 
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6 pt-24 pb-16 text-center flex flex-col items-center">
         

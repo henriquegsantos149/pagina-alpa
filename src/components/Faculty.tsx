@@ -55,7 +55,7 @@ const facultyMembers = [
 
 export default function Faculty() {
   return (
-    <section id="professores" className="py-24 bg-[var(--color-brand-dark)]">
+    <section id="professores" className="py-16 md:py-24 bg-[var(--color-brand-dark)]">
       <div className="max-w-7xl mx-auto px-6">
         
         <div className="text-center mb-16">
@@ -80,7 +80,7 @@ export default function Faculty() {
                 <img 
                   src={member.image} 
                   alt={`${member.name} – Professor da Pós-Graduação em Georreferenciamento, Geoprocessamento e Sensoriamento Remoto`} 
-                  className="w-full h-full object-cover grayscale opacity-90 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
+                  className="w-full h-full object-cover grayscale-0 md:grayscale opacity-100 md:opacity-90 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
                 />
               </div>
               <div className="p-6 flex-1 flex flex-col justify-between">

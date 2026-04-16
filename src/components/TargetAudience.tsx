@@ -12,7 +12,7 @@ const targets = [
 
 export default function TargetAudience() {
   return (
-    <section className="py-24 bg-black/40 border-y border-white/5 relative overflow-hidden">
+    <section className="py-16 md:py-24 bg-black/40 border-y border-white/5 relative overflow-hidden">
       {/* Decorative gradient blur */}
       <div className="absolute -bottom-24 -right-24 w-64 h-64 bg-brand-gradient opacity-[0.05] blur-[80px]"></div>
 

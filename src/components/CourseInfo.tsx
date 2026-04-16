@@ -16,7 +16,7 @@ export default function CourseInfo() {
   };
 
   return (
-    <section className="relative py-24 bg-black/40 border-y border-white/5">
+    <section className="relative py-16 md:py-24 bg-black/40 border-y border-white/5">
       <div className="max-w-7xl mx-auto px-6">
         
         <div className="text-center mb-16">
