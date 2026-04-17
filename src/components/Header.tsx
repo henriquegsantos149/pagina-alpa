@@ -20,7 +20,7 @@ export default function Header() {
             <img 
               src={`${import.meta.env.BASE_URL}logo.png`} 
               alt="Pós ALPA Logo" 
-              className="h-12 md:h-16 w-auto object-contain py-1 drop-shadow-[0_0_15px_rgba(255,255,255,0.1)]"
+              className="h-16 md:h-24 w-auto object-contain py-1 drop-shadow-[0_0_15px_rgba(255,255,255,0.1)]"
             />
           </a>
         </div>
