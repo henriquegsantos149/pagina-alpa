@@ -53,7 +53,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="text-3xl sm:text-4xl md:text-6xl font-bold tracking-tight mb-6 max-w-5xl uppercase leading-tight font-primary"
+          className="text-3xl sm:text-4xl md:text-[4rem] lg:text-[4.5rem] font-bold tracking-tight mb-6 max-w-5xl uppercase leading-tight font-primary"
         >
           Pós-Graduação em <br className="md:block" />
           <span className="inline-block bg-brand-gradient text-[var(--color-brand-dark)] px-3 py-1 md:px-4 md:py-1 mt-2 mb-1 shape-leaf transform -skew-x-6">
