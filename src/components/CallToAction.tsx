@@ -32,13 +32,13 @@ export default function CallToAction() {
           </p>
           
           <div className="relative z-10 space-y-4 sm:space-y-0 sm:flex sm:justify-center sm:gap-6">
-            <a 
-              href="https://pay.voompcreators.com.br/7634/offer/aMlFPw/?utm_source=site_anhanguera" 
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Inscreva-se agora na Pós-Graduação em Auditoria, Licenciamento e Perícia Ambiental via Plataforma de Pagamento"
-              className="shape-leaf group relative inline-flex items-center justify-center gap-3 px-10 py-5 bg-brand-gradient text-[var(--color-brand-dark)] font-bold text-lg overflow-hidden transition-transform hover:scale-105 active:scale-95 w-full sm:w-auto shadow-[0_0_30px_rgba(39,102,140,0.4)]"
-            >
+              <a 
+                href="https://pay.voompcreators.com.br/13461" 
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Inscreva-se agora na Pós-Graduação em Auditoria, Licenciamento e Perícia Ambiental via Plataforma de Pagamento"
+                className="shape-leaf group relative inline-flex items-center justify-center gap-3 px-10 py-5 bg-brand-gradient text-[var(--color-brand-dark)] font-bold text-lg overflow-hidden transition-transform hover:scale-105 active:scale-95 w-full sm:w-auto shadow-[0_0_30px_rgba(39,102,140,0.4)]"
+              >
               <span className="relative z-10 flex items-center gap-2 uppercase tracking-wide font-primary">
                 Inscreva-se Agora
                 <ArrowRight className="w-6 h-6 transition-transform group-hover:translate-x-1" />
