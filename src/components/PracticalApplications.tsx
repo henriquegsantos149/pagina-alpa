@@ -1,34 +1,33 @@
 import { motion } from 'framer-motion';
-import { Briefcase, Building2, Landmark, Tractor, HardHat, TreePine } from 'lucide-react';
 
 const apps = [
   {
-    icon: Landmark,
+    image: `${import.meta.env.BASE_URL}applications/app_judicial.png?v=2`,
     title: "Perícia Judicial",
     desc: "Atuação estratégica como perito nomeado pelo juiz ou assistente técnico das partes em tribunais."
   },
   {
-    icon: TreePine,
+    image: `${import.meta.env.BASE_URL}applications/app_consultoria.png?v=3`,
     title: "Consultoria Ambiental",
     desc: "Elaboração de estudos de impacto, planos de remediação e condução de processos de licenciamento."
   },
   {
-    icon: Building2,
+    image: `${import.meta.env.BASE_URL}applications/app_industrial.png?v=2`,
     title: "Setor Industrial",
     desc: "Auditoria interna de conformidade legal e implementação de sistemas de gestão ambiental (ISO)."
   },
   {
-    icon: HardHat,
+    image: `${import.meta.env.BASE_URL}applications/app_fiscalizacao.png?v=2`,
     title: "Fiscalização e Gestão",
     desc: "Atuação em órgãos públicos na análise técnica de licenciamentos e auditorias governamentais."
   },
   {
-    icon: Tractor,
+    image: `${import.meta.env.BASE_URL}applications/app_agronegocio.png?v=2`,
     title: "Agronegócio",
     desc: "Certificações de sustentabilidade, regularização de passivos e auditoria para exportação."
   },
   {
-    icon: Briefcase,
+    image: `${import.meta.env.BASE_URL}applications/app_escritorios.png?v=2`,
     title: "Escritórios Jurídicos",
     desc: "Suporte técnico pericial para defesa ou proposição de ações ligadas a danos ambientais."
   }
@@ -49,7 +48,7 @@ export default function PracticalApplications() {
           <div className="h-px flex-1 bg-white/10 mb-4 hidden md:block"></div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {apps.map((app, index) => (
             <motion.div
               key={index}
@@ -57,17 +56,24 @@ export default function PracticalApplications() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="relative pl-16 group"
+              className="group flex flex-col bg-white/5 rounded-2xl overflow-hidden border border-white/10 hover:border-[var(--color-brand-primary)] hover:bg-white/10 transition-all duration-300 shadow-lg"
             >
-              <div className="absolute left-0 top-0 w-12 h-12 shape-leaf bg-white/5 border border-white/10 flex items-center justify-center group-hover:bg-brand-gradient group-hover:text-white transition-all">
-                <app.icon className="w-5 h-5 transition-transform group-hover:scale-110" />
+              <div className="relative h-48 sm:h-56 w-full overflow-hidden bg-black/20">
+                <img 
+                  src={app.image} 
+                  alt={app.title} 
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-80 group-hover:opacity-100" 
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-brand-dark)]/80 to-transparent"></div>
               </div>
-              <h3 className="text-xl font-bold mb-3 font-primary uppercase tracking-wide group-hover:text-[var(--color-brand-secondary)] transition-colors">
-                {app.title}
-              </h3>
-              <p className="text-[var(--color-brand-light)]/60 font-secondary text-sm leading-relaxed">
-                {app.desc}
-              </p>
+              <div className="p-6 md:p-8 flex flex-col flex-1">
+                <h3 className="text-lg md:text-xl font-bold mb-3 font-primary uppercase tracking-wide group-hover:text-[var(--color-brand-secondary)] transition-colors">
+                  {app.title}
+                </h3>
+                <p className="text-[var(--color-brand-light)]/60 font-secondary text-sm md:text-base leading-relaxed">
+                  {app.desc}
+                </p>
+              </div>
             </motion.div>
           ))}
         </div>
