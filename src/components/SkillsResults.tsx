@@ -59,7 +59,7 @@ export default function SkillsResults() {
               <div className="w-12 h-12 shape-leaf bg-slate-100 flex items-center justify-center mb-6 group-hover:bg-brand-gradient group-hover:text-[var(--color-brand-dark)] transition-all">
                 <skill.icon className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-bold mb-3 font-primary uppercase tracking-wide group-hover:text-[var(--color-brand-primary)] transition-colors">
+              <h3 className="text-xl font-bold mb-3 font-primary uppercase tracking-wide group-hover:text-[var(--color-brand-primary-dark)] transition-colors">
                 {skill.title}
               </h3>
               <p className="text-[var(--color-brand-dark)]/70 font-secondary leading-relaxed">

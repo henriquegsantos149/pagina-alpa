@@ -13,7 +13,7 @@ export default function ProblemObjective() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <div className="flex items-center gap-3 text-[var(--color-brand-primary)] mb-6 font-primary uppercase tracking-[0.2em] font-bold text-sm">
+            <div className="flex items-center gap-3 text-[var(--color-brand-primary-dark)] mb-6 font-primary uppercase tracking-[0.2em] font-bold text-sm">
               <AlertCircle className="w-5 h-5" />
               <span>O Desafio do Mercado</span>
             </div>
@@ -72,7 +72,7 @@ export default function ProblemObjective() {
               </div>
             </div>
 
-            <div className="mt-10 pt-8 border-t border-slate-100 flex items-center gap-3 text-[var(--color-brand-primary)] font-bold italic">
+            <div className="mt-10 pt-8 border-t border-slate-100 flex items-center gap-3 text-[var(--color-brand-primary-dark)] font-bold italic">
               <TrendingUp className="w-5 h-5" />
               <span>Sua ascensão profissional começa aqui.</span>
             </div>

@@ -101,7 +101,7 @@ export default function Hero({ onOpenModal }: HeroProps) {
           transition={{ delay: 1, duration: 1 }}
           className="absolute bottom-4 animate-bounce"
         >
-          <ChevronDown className="w-8 h-8 text-[var(--color-brand-secondary)] opacity-70" />
+          <ChevronDown className="w-8 h-8 text-[var(--color-brand-accent)] opacity-70" />
         </motion.div>
 
       </div>

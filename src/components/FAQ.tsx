@@ -53,10 +53,10 @@ export default function FAQ() {
                   onClick={() => setOpenIndex(isOpen ? null : index)}
                   className="w-full px-8 py-6 flex items-center justify-between gap-4 text-left cursor-pointer"
                 >
-                  <span className={`font-bold font-primary uppercase tracking-wide transition-colors ${isOpen ? 'text-[var(--color-brand-primary)]' : 'text-[var(--color-brand-dark)]'}`}>
+                  <span className={`font-bold font-primary uppercase tracking-wide transition-colors ${isOpen ? 'text-[var(--color-brand-primary-dark)]' : 'text-[var(--color-brand-dark)]'}`}>
                     {faq.q}
                   </span>
-                  <ChevronDown className={`w-5 h-5 shrink-0 transition-transform duration-300 ${isOpen ? 'rotate-180 text-[var(--color-brand-primary)]' : 'text-[var(--color-brand-dark)]/40'}`} />
+                  <ChevronDown className={`w-5 h-5 shrink-0 transition-transform duration-300 ${isOpen ? 'rotate-180 text-[var(--color-brand-primary-dark)]' : 'text-[var(--color-brand-dark)]/40'}`} />
                 </button>
                 <AnimatePresence>
                   {isOpen && (

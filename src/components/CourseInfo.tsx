@@ -37,7 +37,7 @@ export default function CourseInfo() {
           <motion.div variants={item} className="shape-leaf bg-white border border-slate-200/80 p-8 hover:border-[var(--color-brand-primary)]/50 hover:shadow-md hover:shadow-slate-200/50 transition-all group relative overflow-hidden">
             <div className="absolute top-0 right-0 w-24 h-24 bg-brand-gradient opacity-10 rounded-full blur-[40px] group-hover:opacity-30 transition-opacity"></div>
             <div className="w-14 h-14 shape-leaf bg-slate-100 flex items-center justify-center mb-6 border border-slate-200 group-hover:border-[var(--color-brand-primary)]/50 transition-colors">
-              <Award className="w-7 h-7 text-[var(--color-brand-primary)]" />
+              <Award className="w-7 h-7 text-[var(--color-brand-primary-dark)]" />
             </div>
             <h3 className="text-lg font-semibold text-[var(--color-brand-dark)] mb-2 font-primary uppercase">Título</h3>
             <p className="text-xl font-impact tracking-wider text-brand-gradient leading-tight">Especialista em Auditoria, Licenciamento e Perícia Ambiental</p>
@@ -47,7 +47,7 @@ export default function CourseInfo() {
           <motion.div variants={item} className="shape-leaf bg-white border border-slate-200/80 p-8 hover:border-[var(--color-brand-primary)]/50 hover:shadow-md hover:shadow-slate-200/50 transition-all group relative overflow-hidden">
             <div className="absolute top-0 right-0 w-24 h-24 bg-brand-gradient opacity-10 rounded-full blur-[40px] group-hover:opacity-30 transition-opacity"></div>
             <div className="w-14 h-14 shape-leaf bg-slate-100 flex items-center justify-center mb-6 border border-slate-200 group-hover:border-[var(--color-brand-primary)]/50 transition-colors">
-              <Clock className="w-7 h-7 text-[var(--color-brand-primary)]" />
+              <Clock className="w-7 h-7 text-[var(--color-brand-primary-dark)]" />
             </div>
             <h3 className="text-lg font-semibold text-[var(--color-brand-dark)] mb-2 font-primary uppercase">Duração</h3>
             <p className="text-4xl font-impact tracking-wider text-brand-gradient">12 meses</p>
@@ -77,7 +77,7 @@ export default function CourseInfo() {
           <motion.div variants={item} className="shape-leaf bg-white border border-slate-200/80 p-8 hover:border-[var(--color-brand-primary)]/50 hover:shadow-md hover:shadow-slate-200/50 transition-all group relative overflow-hidden">
             <div className="absolute top-0 right-0 w-24 h-24 bg-brand-gradient opacity-10 rounded-full blur-[40px] group-hover:opacity-30 transition-opacity"></div>
             <div className="w-14 h-14 shape-leaf bg-slate-100 flex items-center justify-center mb-6 border border-slate-200 group-hover:border-[var(--color-brand-primary)]/50 transition-colors">
-              <BookOpen className="w-7 h-7 text-[var(--color-brand-primary)]" />
+              <BookOpen className="w-7 h-7 text-[var(--color-brand-primary-dark)]" />
             </div>
             <h3 className="text-lg font-semibold text-[var(--color-brand-dark)] mb-2 font-primary uppercase">Pré-requisitos</h3>
             <p className="text-2xl font-impact tracking-wider text-brand-gradient">Ensino Superior Completo</p>
@@ -97,7 +97,7 @@ export default function CourseInfo() {
               alt="Selo MEC" 
               className="h-20 w-auto object-contain mb-3 group-hover:scale-105 transition-transform"
             />
-            <h3 className="text-lg font-bold text-[var(--color-brand-primary)] uppercase tracking-wider">Nota 5 no MEC</h3>
+            <h3 className="text-lg font-bold text-[var(--color-brand-primary-dark)] uppercase tracking-wider">Nota 5 no MEC</h3>
           </motion.a>
         </motion.div>
 
