@@ -9,10 +9,10 @@ export default function CallToAction({ onOpenModal }: CallToActionProps) {
   const checkoutUrl = "https://pay.voompcreators.com.br/13461";
 
   return (
-    <section id="inscreva-se" className="py-16 md:py-24 relative overflow-hidden bg-[var(--color-brand-dark)] border-t border-white/5">
+    <section id="inscreva-se" className="py-16 md:py-24 relative overflow-hidden bg-[var(--color-brand-dark)]">
       
       {/* Background radial gradient */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(41,131,166,0.15)_0%,rgba(38,42,64,1)_70%)] pointer-events-none"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(184,204,59,0.04)_0%,#080D08_80%)] pointer-events-none"></div>
 
       <div className="max-w-5xl mx-auto px-6 relative z-10 text-center">
         
@@ -21,7 +21,7 @@ export default function CallToAction({ onOpenModal }: CallToActionProps) {
            whileInView={{ opacity: 1, scale: 1 }}
            viewport={{ once: true }}
            transition={{ duration: 0.6 }}
-           className="shape-leaf bg-black/50 border border-[var(--color-brand-secondary)]/30 p-12 md:p-20 shadow-[0_0_50px_rgba(41,131,166,0.05)] relative overflow-hidden backdrop-blur-sm"
+           className="shape-leaf bg-black/50 border border-[var(--color-brand-secondary)]/30 p-12 md:p-20 shadow-[0_0_50px_rgba(184,204,59,0.05)] relative overflow-hidden backdrop-blur-sm"
         >
           {/* subtle glowing lines to represent "tech" limits */}
           <div className="absolute top-0 left-0 w-full height-[2px] bg-brand-gradient opacity-50"></div>
@@ -41,7 +41,7 @@ export default function CallToAction({ onOpenModal }: CallToActionProps) {
               <button
                 onClick={() => onOpenModal(checkoutUrl)}
                 aria-label="Inscreva-se agora na Pós-Graduação em Auditoria, Licenciamento e Perícia Ambiental via Plataforma de Pagamento"
-                className="shape-leaf group relative inline-flex items-center justify-center gap-3 px-10 py-5 bg-brand-gradient text-[var(--color-brand-dark)] font-bold text-lg overflow-hidden transition-transform hover:scale-105 active:scale-95 w-full sm:w-auto shadow-[0_0_30px_rgba(39,102,140,0.4)] cursor-pointer"
+                className="shape-leaf group relative inline-flex items-center justify-center gap-3 px-10 py-5 bg-brand-gradient text-[var(--color-brand-dark)] font-bold text-lg overflow-hidden transition-transform hover:scale-105 active:scale-95 w-full sm:w-auto shadow-[0_0_30px_rgba(184,204,59,0.3)] cursor-pointer"
               >
               <span className="relative z-10 flex items-center gap-2 uppercase tracking-wide font-primary">
                 Inscreva-se Agora

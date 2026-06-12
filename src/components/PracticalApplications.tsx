@@ -2,32 +2,32 @@ import { motion } from 'framer-motion';
 
 const apps = [
   {
-    image: `${import.meta.env.BASE_URL}applications/app_judicial.png?v=2`,
+    image: `${import.meta.env.BASE_URL}applications/app_judicial.webp?v=2`,
     title: "Perícia Judicial",
     desc: "Atuação estratégica como perito nomeado pelo juiz ou assistente técnico das partes em tribunais."
   },
   {
-    image: `${import.meta.env.BASE_URL}applications/app_consultoria.png?v=3`,
+    image: `${import.meta.env.BASE_URL}applications/app_consultoria.webp?v=3`,
     title: "Consultoria Ambiental",
     desc: "Elaboração de estudos de impacto, planos de remediação e condução de processos de licenciamento."
   },
   {
-    image: `${import.meta.env.BASE_URL}applications/app_industrial.png?v=2`,
+    image: `${import.meta.env.BASE_URL}applications/app_industrial.webp?v=2`,
     title: "Setor Industrial",
     desc: "Auditoria interna de conformidade legal e implementação de sistemas de gestão ambiental (ISO)."
   },
   {
-    image: `${import.meta.env.BASE_URL}applications/app_fiscalizacao.png?v=2`,
+    image: `${import.meta.env.BASE_URL}applications/app_fiscalizacao.webp?v=2`,
     title: "Fiscalização e Gestão",
     desc: "Atuação em órgãos públicos na análise técnica de licenciamentos e auditorias governamentais."
   },
   {
-    image: `${import.meta.env.BASE_URL}applications/app_agronegocio.png?v=2`,
+    image: `${import.meta.env.BASE_URL}applications/app_agronegocio.webp?v=2`,
     title: "Agronegócio",
     desc: "Certificações de sustentabilidade, regularização de passivos e auditoria para exportação."
   },
   {
-    image: `${import.meta.env.BASE_URL}applications/app_escritorios.png?v=2`,
+    image: `${import.meta.env.BASE_URL}applications/app_escritorios.webp?v=2`,
     title: "Escritórios Jurídicos",
     desc: "Suporte técnico pericial para defesa ou proposição de ações ligadas a danos ambientais."
   }

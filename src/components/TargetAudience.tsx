@@ -12,7 +12,7 @@ const targets = [
 
 export default function TargetAudience() {
   return (
-    <section className="py-16 md:py-24 bg-black/40 border-y border-white/5 relative overflow-hidden">
+    <section className="py-16 md:py-24 bg-[var(--color-brand-light)] text-[var(--color-brand-dark)] border-y border-slate-200/80 relative overflow-hidden">
       {/* Decorative gradient blur */}
       <div className="absolute -bottom-24 -right-24 w-64 h-64 bg-brand-gradient opacity-[0.05] blur-[80px]"></div>
 
@@ -24,18 +24,18 @@ export default function TargetAudience() {
            viewport={{ once: true }}
            transition={{ duration: 0.6 }}
         >
-          <div className="flex items-center gap-3 text-[var(--color-brand-secondary)] mb-6 font-primary uppercase tracking-widest font-bold text-sm">
+          <div className="flex items-center gap-3 text-[var(--color-brand-primary)] mb-6 font-primary uppercase tracking-widest font-bold text-sm">
             <Users className="w-5 h-5" />
             <span>Perfil do Aluno</span>
           </div>
-          <h2 className="text-3xl md:text-5xl font-bold mb-8 font-primary uppercase leading-tight">
+          <h2 className="text-3xl md:text-5xl font-bold mb-8 font-primary uppercase leading-tight text-[var(--color-brand-dark)]">
             Para quem é esta <span className="text-brand-gradient">Pós-Graduação?</span>
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
             {targets.map((text, i) => (
-              <div key={i} className="flex items-center gap-3 bg-white/5 border border-white/5 p-4 shape-leaf group hover:border-white/20 transition-all">
-                <CheckCircle className="w-5 h-5 text-[var(--color-brand-accent)] shrink-0 group-hover:scale-110 transition-transform" />
-                <span className="text-sm font-medium text-[var(--color-brand-light)]/80">{text}</span>
+              <div key={i} className="flex items-center gap-3 bg-white border border-slate-200/80 p-4 shape-leaf group hover:border-slate-300 hover:shadow-md hover:shadow-slate-200/50 transition-all">
+                <CheckCircle className="w-5 h-5 text-[var(--color-brand-primary)] shrink-0 group-hover:scale-110 transition-transform" />
+                <span className="text-sm font-medium text-[var(--color-brand-dark)]/80">{text}</span>
               </div>
             ))}
           </div>
@@ -48,7 +48,7 @@ export default function TargetAudience() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="bg-brand-gradient p-1 shape-leaf"
         >
-          <div className="bg-[var(--color-brand-dark)] p-10 shape-leaf h-full">
+          <div className="bg-[var(--color-brand-dark)] p-10 shape-leaf h-full text-[var(--color-brand-light)]">
             <div className="flex items-center gap-4 mb-8">
               <div className="w-12 h-12 shape-leaf bg-white/5 flex items-center justify-center text-[var(--color-brand-primary)]">
                 <GraduationCap className="w-6 h-6" />

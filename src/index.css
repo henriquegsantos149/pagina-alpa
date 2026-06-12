@@ -49,6 +49,28 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
+
+  .carousel-container {
+    --slide-step: calc(100% + 24px);
+  }
+
+  @media (min-width: 640px) {
+    .carousel-container {
+      --slide-step: calc(50% + 12px);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .carousel-container {
+      --slide-step: calc(33.333% + 8px);
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .carousel-container {
+      --slide-step: calc(25% + 6px);
+    }
+  }
 }
 
 .bg-grid {

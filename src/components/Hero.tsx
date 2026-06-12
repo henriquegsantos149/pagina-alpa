@@ -33,7 +33,7 @@ export default function Hero({ onOpenModal }: HeroProps) {
             className="group"
           >
             <img 
-              src={`${import.meta.env.BASE_URL}logo-ambientalpro.png`} 
+              src={`${import.meta.env.BASE_URL}logo-ambientalpro.webp`} 
               alt="Ambiental Pro" 
               className="h-14 md:h-16 w-auto object-contain group-hover:scale-105 transition-transform"
             />
@@ -47,7 +47,7 @@ export default function Hero({ onOpenModal }: HeroProps) {
             className="group"
           >
             <img 
-              src={`${import.meta.env.BASE_URL}mec-badge.png`} 
+              src={`${import.meta.env.BASE_URL}mec-badge.webp`} 
               alt="Selo MEC" 
               className="h-20 md:h-24 w-auto object-contain group-hover:scale-105 transition-transform"
             />

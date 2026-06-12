@@ -40,9 +40,7 @@ function App() {
       <CourseInfo />
       <Testimonials />
       <FAQ />
-      <div className="py-12 bg-black/40">
-        <CallToAction onOpenModal={handleOpenModal} />
-      </div>
+      <CallToAction onOpenModal={handleOpenModal} />
       
       <StickyCTA onOpenModal={handleOpenModal} />
 
