@@ -8,6 +8,7 @@ import PracticalApplications from './components/PracticalApplications'
 import TargetAudience from './components/TargetAudience'
 import Faculty from './components/Faculty'
 import CourseInfo from './components/CourseInfo'
+import Pricing from './components/Pricing'
 import Testimonials from './components/Testimonials'
 import FAQ from './components/FAQ'
 import CallToAction from './components/CallToAction'
@@ -38,6 +39,7 @@ function App() {
       <TargetAudience />
       <Faculty />
       <CourseInfo />
+      <Pricing onOpenModal={handleOpenModal} />
       <Testimonials />
       <FAQ />
       <CallToAction onOpenModal={handleOpenModal} />
