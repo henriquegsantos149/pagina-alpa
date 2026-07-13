@@ -177,9 +177,9 @@ export default function LeadModal({ isOpen, onClose, checkoutUrl }: LeadModalPro
                   type="tel"
                   required
                   className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3.5 text-white placeholder:text-white/20 focus:outline-none focus:border-[var(--color-brand-primary)]/50 transition-colors"
-                  placeholder="(00) 00000-0000"
+                  placeholder="11999999999"
                   value={formData.telefone}
-                  onChange={(e) => setFormData({ ...formData, telefone: e.target.value })}
+                  onChange={(e) => setFormData({ ...formData, telefone: e.target.value.replace(/\D/g, '').slice(0, 11) })}
                 />
               </div>
             </div>
